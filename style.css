@@ -1,0 +1,19 @@
+body {
+  background-color: rgba(100, 18, 163, 0.671);
+}
+.recipe {
+  margin: 3ch;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(235, 231, 197);
+  border-radius: 20px;
+  border-style:double;
+  border-width: 5px;
+  border-color: black;
+}
+
+img {
+  height: auto;
+  width: 500px;
+}
