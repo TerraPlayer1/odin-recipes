@@ -1,19 +1,39 @@
 body {
   background-color: rgba(100, 18, 163, 0.671);
 }
-.recipe {
-  margin: 3ch;
-  padding: 5px;
-  padding-left: 30px;
-  padding-right: 30px;
+.recipe, .title, .return, .to-recipe{
   background-color: rgb(235, 231, 197);
   border-radius: 20px;
   border-style:double;
   border-width: 5px;
   border-color: black;
+
+}
+
+.recipe, .title{
+  margin: 1ch;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.title {
+  text-align: center;
 }
 
 img {
+  padding-top: 20px;
   height: auto;
   width: 500px;
+  
 }
+
+footer {
+  padding-bottom: 20px;
+}
+
+.return {
+  position: absolute;
+  right: 40px;
+  top: 36px;
+ }
